@@ -1,0 +1,120 @@
+*{
+   border: 0; 
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html{ background-color: hsl(30, 54%, 90%);
+}
+
+body {
+   display:flex;
+   place-content: center;
+}
+
+.container{
+   max-width: 780px;
+  background-color: hsl(0, 0%, 100%) ;
+   padding:1.5rem ;
+   margin-bottom:5rem;
+   margin-top:5rem;
+   border-radius: 1.5rem;
+   font-family: "Outfit";
+   font-size: 1.15rem;
+   color: hsl(30, 10%, 34%);
+}
+
+img{
+   width:100%;
+   margin-bottom:1.5rem;
+   border-radius:1.5rem;
+}   
+   
+
+
+h1,h2 {font-family:"Young Serif";
+   margin-bottom:1rem ;
+   font-size:1.5rem ;
+}
+
+h1{font-size:2rem ;
+   color:hsl(24, 5%, 18%);
+   font-weight:500;
+}   
+ol,ul,li,p{margin-bottom:0.5rem;
+}
+ol,ul,p{margin-bottom:1.5rem;
+}
+
+.prep-container{
+ background-color:hsla(332, 51%, 32%, 0.137);  
+ border-radius:0.5rem;
+ padding:1rem;
+ margin-bottom:1.5rem;
+
+}
+ .prep-title{
+ color:hsl(332, 51%, 32%);
+ margin-bottom:1rem;
+}
+.preparation-list,.Ingre-list,.Instructions-list{padding-left: 2rem;
+}
+.preparation-list li::marker{
+   color:hsl(332, 51%, 32%);
+}
+h2{color:hsl(14, 45%, 36%);
+   font-weight:500;
+}
+.Instructions-list li::marker{
+   color:hsl(14, 45%, 36%);
+}
+.instruction-list.strong{
+   color:hsla(0, 3%, 6%, 0.562);
+}
+hr{
+   border-top:1px solid hsla(40, 1%, 41%, 0.692);
+   margin-bottom:1.5rem;
+}
+.nutri-list{
+   list-style-type:none;
+   display:flex;
+   justify-content:space-between;
+   width:40%;
+}
+.nutri-list strong{
+   color:hsl(14, 45%, 36%);
+}
+@media (max-width: 400px){
+   html{background-color: white;}
+   .nutri-list{
+   list-style-type:none;
+   display:flex;
+   justify-content:space-between;
+   width:60%;
+} 
+img {
+   width:340px;
+   margin-bottom:0;
+   border-radius:1.5rem;
+}
+   
+   .container{
+   max-width: 780px;
+  background-color: white;
+   padding:2rem ;
+   padding-top:0rem;
+   margin-bottom:5rem;
+   margin-top:0rem;
+   border-radius: 1.5rem;
+   font-family: "Outfit";
+   font-size: 1.15rem;
+   color: hsl(30, 10%, 34%);
+}
+
+h1,h2,ol,ul,li,p{
+   padding-left: 2rem;
+   padding-bottom: 2rem;}
+
+}
+   
